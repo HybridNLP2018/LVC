@@ -19,9 +19,9 @@ python download.py --weights --embeddings --cross-scigraph --cross-semantic-scho
 
 
 ## Requirements:
-300 GB of free space disk to reproduce all the experiments:
-- cross-scigraph -> 45 GB
-- cross-semantic-scholar -> 225 GB
-- cat-figures -> 10 GB
-- cat-captions -> 10 GB
-- tqa -> 10 GB
+~300 GB of free space disk to reproduce all the experiments:
+- cross-scigraph -> 40 GB
+- cross-semantic-scholar -> 215 GB
+- cat-figures -> 20 GB
+- cat-captions -> 3 GB
+- tqa -> 6 GB
