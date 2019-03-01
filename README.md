@@ -9,3 +9,12 @@ Automatically interpreting scientific figures is par-ticularly hard compared to 
 python download.py --weights --embeddings --cross-scigraph --cross-semantic-scholar --cat-figures --cat-captions --tqa
 ```
 2. Use the different notebooks to execute the experiments.
+
+
+## Requirements:
+300 GB of free space disk to reproduce all the experiments:
+- cross-scigraph -> 45 GB
+- cross-semantic-scholar -> 225 GB
+- cat-figures -> 10 GB
+- cat-captions -> 10 GB
+- tqa -> 10 GB
