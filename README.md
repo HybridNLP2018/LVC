@@ -13,7 +13,7 @@ _**Disclaimer:** This repo does not offer embeddings extracted from proprietary 
 ## How to run the notebooks:
 1. Execute the download script with the options you want to choose: 
 ```
-python download.py --weights --embeddings --cross-scigraph --cross-semantic-scholar --cat-figures --cat-captions --tqa
+python download.py [options]
 ```
 2. Use the different notebooks to execute the experiments.
 
