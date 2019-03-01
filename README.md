@@ -5,7 +5,7 @@ Automatically interpreting scientific figures is par-ticularly hard compared to 
 
 ## How to run the notebooks:
 1. Execute the download script with the options you want to choose: 
-
+```
 python download.py --weights --embeddings --cross-scigraph --cross-semantic-scholar --cat-figures --cat-captions --tqa
-
+```
 2. Use the different notebooks to execute the experiments.
