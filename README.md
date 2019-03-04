@@ -11,7 +11,8 @@ This repository also provides code and data to leverage the LVC visual and langu
 _**Disclaimer:** This repo does not offer embeddings extracted from proprietary knowledge graphs in order to comply with their IP and licensing schemes. Soon, we will offer versions built on top of open source KGs like WordNet._
 
 ## How to run the notebooks:
-**1. Execute the script download.py with the materials you want to download: **
+
+**1. Execute the script download.py with the materials you want to download:**
 
 ```
 python download.py [options]
