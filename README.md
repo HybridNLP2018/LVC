@@ -16,7 +16,6 @@ _**Disclaimer:** This repo does not offer embeddings extracted from proprietary 
 
 ```
 python download.py [options]
-```
 
 Options:
   -h, --help        show this help message and exit
@@ -25,7 +24,8 @@ Options:
   --cat-captions    Categorization experiment with captions
   --cat-figures     Categorization experiment with figures
   --tqa             TQA experiment
-  
+```
+
 **2. Use the different notebooks to execute the experiments.**
 
 **CrossModal-Experiments**: In this notebook we execute a correspondance experiment between the scientific figures and their captions as they appear together in a scientific publication. The corpora used in this experiment can be Scigraph or Semantic Scholar.
