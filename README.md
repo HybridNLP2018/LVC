@@ -28,6 +28,7 @@ Options:
 2. Use the different notebooks to execute the experiments.
 
 Notebooks:
+
 **CrossModal-Experiments**: In this notebook we execute a correspondance experiment between the scientific figures and their captions as they appear together in a scientific publication. The corpora used in this experiment can be Scigraph or Semantic Scholar.
 
 **CrossModal-Experiments**: In this notebook we categorize the figures and captions in five different categories. To do so, we use the weights generated in the CrossModal experiment for the captions and with the introduction of KG (Vecsigrafo) for the figures.
