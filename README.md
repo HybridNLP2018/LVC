@@ -11,12 +11,28 @@ This repository also provides code and data to leverage the LVC visual and langu
 _**Disclaimer:** This repo does not offer embeddings extracted from proprietary knowledge graphs in order to comply with their IP and licensing schemes. Soon, we will offer versions built on top of open source KGs like WordNet._
 
 ## How to run the notebooks:
-1. Execute the download script with the options you want to choose: 
+1. Execute the script download.py with the materials you want to download: 
+
 ```
 python download.py [options]
 ```
+
+Options:
+  -h, --help        show this help message and exit
+  --cross-scigraph  Cross-modal experiment with Scigraph corpus
+  --cross-semantic  Cross-modal experiment with Semantic Scholar corpus
+  --cat-captions    Categorization experiment with captions
+  --cat-figures     Categorization experiment with figures
+  --tqa             TQA experiment
+  
 2. Use the different notebooks to execute the experiments.
 
+Notebooks:
+CrossModal-Experiments: In this notebook we execute a correspondance experiment between the scientific figures and their captions as they appear together in a scientific publication. The corpora used in this experiment can be Scigraph or Semantic Scholar.
+
+CrossModal-Experiments: In this notebook we categorize the figures and captions in five different categories. To do so, we use the weights generated in the CrossModal experiment for the captions and with the introduction of KG (Vecsigrafo) for the figures.
+
+TQA-Experiments: In this notebook we reproduce the baseline for the TQA challenge, as we replace the VGG-19 with the visual network of the LVC (Language-Visual Correspondance) model to extract the features of the figures within the context and questions.
 
 ## Requirements:
 ~300 GB of free space disk to reproduce all the experiments:
